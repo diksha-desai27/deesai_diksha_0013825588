@@ -69,7 +69,7 @@ public class ManageOrdersJPanel extends javax.swing.JPanel {
                         sb.append(mapElement.getKey()+", ");
                     } 
                     row[1]= sb;
-                    row[2] = null;
+                    row[2] = w.getMessage();
                     if(w.getSender().getCustomer() == null)
                     {
                        row[3] = this.restaurant.getName();
